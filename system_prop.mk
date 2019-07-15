@@ -19,6 +19,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.eis.enable=1 \
     persist.camera.is_type=4
 
+# Charger
+ro.charger.enable_suspend=true
+
 # Dalvik VM
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.boot-dex2oat-threads=4 \
