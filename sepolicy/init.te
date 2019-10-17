@@ -44,3 +44,6 @@ allow init sysfs_gpu_tuning:file setattr;
 allow init sysfs_ramdumps:file rw_file_perms;
 # todo fix missing labels
 allow init sysfs:file { setattr getattr };
+
+# for bind mount over /apex/com.android.media.swcodec/etc/ld.config.txt
+allow init system_file:file mounton;
