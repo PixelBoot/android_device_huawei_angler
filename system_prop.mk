@@ -12,6 +12,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.product.identify="angler" \
     persist.audio.fluence.speaker=true \
     ro.audio.monitorRotation=true \
+    ro.config.media_vol_steps=25 \
+    ro.config.vc_call_vol_steps=7 \
     ro.audio.flinger_standbytime_ms=300
 
 # Camera
