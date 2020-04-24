@@ -350,7 +350,8 @@ PRODUCT_PACKAGES += \
     wificond \
     wifilogd \
     wpa_supplicant \
-    wpa_supplicant.conf
+    wpa_supplicant.conf \
+    WifiOverlay
 
 # WiFi cal NVRAM files
 PRODUCT_COPY_FILES += \
