@@ -357,6 +357,11 @@ PRODUCT_PACKAGES += \
 #USB HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
+
+# VNDK-SP
+PRODUCT_PACKAGES += \
+    vndk-sp
+
 # Library used for VTS tests  (only for userdebug and eng builds)
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 # For VTS profiling.
