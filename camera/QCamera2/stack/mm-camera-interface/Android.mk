@@ -29,7 +29,8 @@ LOCAL_CFLAGS += -D_ANDROID_
 LOCAL_C_INCLUDES := \
     $(LOCAL_PATH)/inc \
     $(LOCAL_PATH)/../common \
-    system/media/camera/include
+    system/media/camera/include \
+    system/core/libutils/include
 
 LOCAL_CFLAGS += -DCAMERA_ION_HEAP_ID=ION_IOMMU_HEAP_ID
 LOCAL_C_INCLUDES+= $(kernel_includes)
