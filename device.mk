@@ -313,6 +313,10 @@ PRODUCT_COPY_FILES += \
 $(call add-product-sanitizer-module-config,thermal-engine,never)
 $(call add-product-sanitizer-module-config,qmuxd,never)
 
+# System
+ PRODUCT_PROPERTY_OVERRIDES += \
+     persist.sys.binary_xml=false
+
 # TimeKeep
 PRODUCT_PACKAGES += \
     timekeep \
