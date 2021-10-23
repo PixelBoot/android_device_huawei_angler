@@ -18,7 +18,7 @@
    {
       "repository": "LineageOS/android_hardware_sony_timekeep",
       "target_path": "hardware/sony/timekeep",
-      "branch": "lineage-18.0",
+      "branch": "lineage-18.1",
       "remote": "github"
    }
 ]
