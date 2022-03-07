@@ -92,7 +92,7 @@ PRODUCT_PACKAGES += \
 
 # Power HAL
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti
+    android.hardware.power@1.2-service-qti
 
 # Thermal
 PRODUCT_PACKAGES += \
