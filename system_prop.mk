@@ -37,6 +37,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
     ro.sf.lcd_density=560 \
     persist.hwc.mdpcomp.enable=true
+    debug.renderengine.backend=gles
 
 # DRM service
 PRODUCT_PROPERTY_OVERRIDES += \
