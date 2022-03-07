@@ -88,7 +88,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
-    rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
+    vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
     persist.radio.mode_pref_nv10=1 \
     persist.radio.apm_sim_not_pwdn=1 \
     persist.radio.custom_ecc=1 \
