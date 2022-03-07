@@ -97,6 +97,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.redir_party_num=0 \
     persist.data.mode=concurrent
 
+# SdcardFS
+PRODUCT_PROPERTY_OVERRIDES += \
+     persist.sys.fflag.override.settings_fuse=false
+
 # Shipping API
 # ro.product.first_api_level indicates the first api level the device has commercially launched on.
 PRODUCT_PROPERTY_OVERRIDES += \
