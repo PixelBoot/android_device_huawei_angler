@@ -110,8 +110,8 @@ PRODUCT_PACKAGES += \
     fingerprint.angler
 
 # Gatekeeper
-PRODUCT_PACKAGES += \
-    gatekeeper.msm8994
+#PRODUCT_PACKAGES += \
+#    gatekeeper.msm8994
 
 # GPS
 PRODUCT_PACKAGES += \
